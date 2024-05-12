@@ -25,7 +25,7 @@ export const Link1 = styled.div`
   width: 100%;
   padding: 0.5rem 1rem;
   margin: 0.5rem 1rem;
-  font-size: 11px;
+  font-size: ${(props) => props.theme.fonts.font_size.small_font};
   @media(max-width:600px){
     margin: 0.1rem 1rem;
   }
@@ -33,12 +33,12 @@ export const Link1 = styled.div`
 export const LinkText1 = styled.div`
   text-align: left;
   margin-right: 2rem;
-  color: white;
+  color: ${(props) => props.theme.colors.white};
 `;
 export const LinkText2 = styled.div`
   text-align: right;
   margin-left: 1rem;
-  color: white;
+  color: ${(props) => props.theme.colors.white};
 `;
 export const CopyIcon = styled.img`
   float: right;
@@ -63,7 +63,7 @@ export const StyledModal = styled.div`
 export const Container = styled.div`
   width: 25%;
   height: 70%;
-  background-color: white;
+  background-color: ${(props) => props.theme.colors.white};
   position: absolute;
   right: 0%;
   bottom: 0%;
@@ -113,18 +113,18 @@ export const TextDiv = styled.div`
   top: 10%;
   left: 10%;
   width: 55%;
-  color: white;
+  color: ${(props) => props.theme.colors.white};
   text-align: left;
 `;
 export const Text = styled.div`
-  font-size: 18px;
+  font-size: ${(props) => props.theme.fonts.font_size.larger_font};
   margin: 0.8rem 0rem;
   text-align: left;
 `;
 
 export const Subtext = styled.div`
   margin: 0.8rem 0rem;
-  font-size: 11px;
+  font-size: ${(props) => props.theme.fonts.font_size.small_font};
 `;
 
 export const MediaIconDiv = styled.div`

@@ -15,7 +15,7 @@ export const Text = styled.div`
   top: 10%;
   left: 40%;
   background: none;
-  color: white;
+  color: ${(props) => props.theme.colors.white}
     @media (max-width:900px){
     left:30%;
     top:6%;

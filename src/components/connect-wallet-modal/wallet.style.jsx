@@ -34,13 +34,13 @@ export const StyledModal = styled.div`
 export const Container = styled.div`
   width: 60%;
   height: 50%;
-  background-color: white;
+  background-color: ${(props) => props.theme.colors.white};
   position: absolute;
   right: 0%;
   bottom: 0%;
   left: 20%;
   top: 25%;
-  color: white;
+  color: ${(props) => props.theme.colors.white};
   border-radius: ${(props) => props.theme.border.radius_m};
 
   animation-name: ${SlideInAnimation};
@@ -61,7 +61,7 @@ export const Wrap = styled.div`
     padding: 0rem 0rem 0rem 5rem;
   }
   @media (max-width: 800px) {
-    font-size: 12px;
+    font-size: ${(props) => props.theme.fonts.font_size.below_normal_font};
   }
   @media (max-width: 550px) {
     padding:1rem 0.5rem ;
@@ -78,23 +78,23 @@ export const CloseIcon = styled.img`
 `;
 export const Head = styled.div`
   text-align: center;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: ${(props) => props.theme.fonts.font_weight.bolder_font};
+  font-size: ${(props) => props.theme.fonts.font_size.font_size_20};
   margin-right: 10rem;
   @media (max-width: 800px) {
     margin-left: 5rem;
   }
   @media (max-width: 550px) {
-    font-size: 16px;
+    font-size: ${(props) => props.theme.fonts.font_size.large_font};
   }
 `;
 export const Subheading = styled.div`
   text-align: center;
   margin: 1rem 0rem;
   margin-right: 10rem;
-  color: #33d49d;
-  font-weight: 500;
-  font-size: 14px;
+  color: ${(props) => props.theme.colors.green};
+  font-weight: ${(props) => props.theme.fonts.font_weight.light_bold_font};
+  font-size: ${(props) => props.theme.fonts.font_size.font_14};
   @media (max-width: 1500px) {
     margin-top: 0rem;
   }
@@ -102,7 +102,7 @@ export const Subheading = styled.div`
     margin-right: 4rem;
   }
     @media (max-width: 550px) {
-    font-size: 12px;
+    font-size: ${(props) => props.theme.fonts.font_size.below_normal_font};
   }
 `;
 export const Input = styled.input`
@@ -112,10 +112,10 @@ export const Input = styled.input`
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
   width: 70%;
-  color: white;
+  color: ${(props) => props.theme.colors.white};
   &::placeholder {
-    color: white;
-    font-size: 12px;
+    color: ${(props) => props.theme.colors.white};
+    font-size: ${(props) => props.theme.fonts.font_size.below_normal_font};
     opacity: 0.9;
   }
   @media (max-width: 550px) {
@@ -124,29 +124,29 @@ export const Input = styled.input`
     padding: 0.5rem;
     margin:0rem;
      &::placeholder {
-    font-size: 10px;
+    font-size: ${(props) => props.theme.fonts.font_size.smallest_font};
   }
 `;
 export const Label = styled.div`
   text-align: left;
   margin: 0.5rem 0rem;
   color: #061926;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: ${(props) => props.theme.fonts.font_weight.bold_font};
+  font-size: ${(props) => props.theme.fonts.font_size.font_14};
   @media (max-width: 550px) {
-    font-size: 10px;
+    font-size: ${(props) => props.theme.fonts.font_size.smallest_font};
   }
 `;
 
 export const Button = styled.button`
   background: ${(props) => props.theme.colors.green};
-  color: white;
+  color: ${(props) => props.theme.colors.white};
   border: none;
   border-radius: 8px;
   padding: 0.5rem 2rem;
   text-align: centre;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: ${(props) => props.theme.fonts.font_size.font_14};
+  font-weight: ${(props) => props.theme.fonts.font_weight.medium_font};
   font-family: Montserrat;
   margin-top: 1rem;
   margin-left: 28%;

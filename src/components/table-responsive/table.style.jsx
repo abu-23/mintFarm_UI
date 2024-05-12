@@ -42,7 +42,7 @@ export const Details = styled.td`
 
 export const HeaderSpan = styled.span`
   display: none;
-  color: white;
+  color: ${(props) => props.theme.colors.white}
   @media screen and (max-width: 1200px) {
     display: block;
     font-weight: bold;

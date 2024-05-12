@@ -4,7 +4,7 @@ export const FarmingDiv = styled.div`
   background: ${(props) => props.theme.colors.dark_blue};
   padding: 2rem;
   margin: 3rem 4rem;
-  border-radius: 10px;
+  border-radius: ${(props) => props.theme.border.radius_m};
 `;
 
 export const ProgressBar = styled.div`
@@ -26,7 +26,7 @@ export const YieldDetail = styled.div`
   margin: 1rem 1rem;
   text-align: center;
   width: 80%;
-  border-radius: 10px;
+  border-radius: ${(props) => props.theme.border.radius_m};
   @media (max-width: 600px) {
     width: 100%;
     padding: 0.5rem;
@@ -36,21 +36,21 @@ export const YieldDetail = styled.div`
 
 export const Value = styled.div`
   color: orange;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: ${(props) => props.theme.fonts.font_size.larger_font};
+  font-weight: ${(props) => props.theme.fonts.font_weight.bold_font};
   margin-bottom: 1.5rem;
 `;
 export const Subtext = styled.div`
-  font-size: 14px;
-  font-weight: 400;
+  font-size: ${(props) => props.theme.fonts.font_size.font_14};
+  font-weight: ${(props) => props.theme.fonts.font_weight.medium_font};
   margin: 0.5rem 0rem;
   @media (max-width: 600px) {
-    font-size: 10px;
+    font-size: ${(props) => props.theme.fonts.font_size.smallest_font};
   }
 `;
 export const Heading = styled.div`
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: ${(props) => props.theme.fonts.font_weight.bolder_font};
+  font-size: ${(props) => props.theme.fonts.font_size.larger_font};
   text-align: left;
   margin: 0.5rem 0.5rem;
 `;
@@ -61,17 +61,17 @@ export const ActiveProgressBar = styled(ProgressBar)`
   text-align: right;
   padding: 0.2rem 0.5rem;
   font-weight: 800;
-  font-size: 14px;
+  font-size: ${(props) => props.theme.fonts.font_size.font_14};
 `;
 
 export const DetailText = styled.div`
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: ${(props) => props.theme.fonts.font_weight.normal_font};
+  font-size: ${(props) => props.theme.fonts.font_size.font_14};
   text-align: left;
 
 `;
 export const MinAmount = styled.div`
   font-weight: 800;
-  font-size: 14px;
+  font-size: ${(props) => props.theme.fonts.font_size.font_14};
   text-align: left;
 `;

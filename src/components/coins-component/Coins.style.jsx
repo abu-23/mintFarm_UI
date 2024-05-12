@@ -5,7 +5,7 @@ export const MainDiv = styled.div`
   padding: 2rem 0rem;
   margin: 3rem 4rem;
   text-align: center;
-  border-radius: 10px;
+  border-radius: ${(props) => props.theme.border.radius_m};
   @media (max-width: 700px) {
     margin: 0rem 3rem;
   }
@@ -16,7 +16,7 @@ export const CoinIcon = styled.img`
   background: ${(props) => props.theme.colors.grey_background};
   width: 55%;
   height: 80%;
-  border-radius: 10px;
+  border-radius: ${(props) => props.theme.border.radius_m};
   @media (max-width: 1200px) {
     padding: 1rem;
     width: 45%;

@@ -8,8 +8,8 @@ export const Sections = styled.div`
   margin: 0rem 1rem;
   cursor: pointer;
   padding: 0.5rem;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: ${(props) => props.theme.fonts.font_weight.bold_font};
+  font-size: ${(props) => props.theme.fonts.font_size.large_font};
   ${(props) =>
     props.isActive
       ? css`
@@ -17,7 +17,7 @@ export const Sections = styled.div`
           color: black;
           padding: 0.5rem;
           margin: 0rem 0.5rem;
-          border-radius: 10px;
+          border-radius: ${(props) => props.theme.border.radius_m};
         `
       : ""}
 `;
@@ -27,7 +27,7 @@ export const YieldDetail = styled.div`
   margin: 1rem 1rem;
   text-align: center;
   width: 80%;
-  border-radius: 10px;
+  border-radius: ${(props) => props.theme.border.radius_m};
   @media (max-width: 600px) {
     width: 100%;
     padding: 0.5rem;
@@ -37,16 +37,16 @@ export const YieldDetail = styled.div`
 
 export const Value = styled.div`
   color: orange;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: ${(props) => props.theme.fonts.font_size.larger_font};
+  font-weight: ${(props) => props.theme.fonts.font_weight.bold_font};
   margin-bottom: 1.5rem;
 `;
 export const Subtext = styled.div`
-  font-size: 14px;
-  font-weight: 400;
+  font-size: ${(props) => props.theme.fonts.font_size.font_14};
+  font-weight: ${(props) => props.theme.fonts.font_weight.medium_font};
   margin: 0.5rem 0rem;
   @media (max-width: 600px) {
-    font-size: 12px;
+    font-size: ${(props) => props.theme.fonts.font_size.below_normal_font};
   }
 `;
 export const TableDiv = styled.div`
@@ -56,5 +56,5 @@ export const FarmingDiv = styled.div`
   background: ${(props) => props.theme.colors.dark_blue};
   padding: 1%;
   margin: 3rem 4rem;
-  border-radius: 10px;
+  border-radius: ${(props) => props.theme.border.radius_m};
 `;

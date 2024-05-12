@@ -4,7 +4,7 @@ export const FooterContainer = styled.div`
   background: black;
   padding: 2rem 1rem;
   @media (max-width: 990px) {
-    font-size: 12px;
+    font-size: ${(props) => props.theme.fonts.font_size.below_normal_font};
     padding: 0.2rem;
   }
 `;
