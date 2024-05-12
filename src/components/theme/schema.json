@@ -1,0 +1,67 @@
+{
+  "data": {
+    "light": {
+      "id": "T_001",
+      "name": "Light",
+      "colors": {
+        "dark_blue":"#02121D",
+        "grey_background": "#0A1F2F",
+        "white": "#ffffff",
+        "black": "#000000",
+        "green": "#33D49D",
+        "placeholder_text": "#210B2B",
+        "light_grey": "#545454",
+        "grey": "rgba(0, 0, 0, 0.3)"
+      },
+      "fonts": {
+        "font_size": {
+          "font_size_28": "28px",
+          "font_size_40": "40px",
+          "font_size_24": "24px",
+          "font_size_23": "23px",
+          "largest_font": "22px",
+          "font_21": "21px",
+          "font_size_20": "20px",
+          "font_19": "19px",
+          "font_size_21": "21px",
+          "larger_font": "18px",
+          "font_17": "17px",
+          "large_font": "16px",
+          "font_15": "15px",
+          "font_14": "14px",
+          "normal_font": "13px",
+          "below_normal_font": "12px",
+          "small_font": "11px",
+          "smallest_font": "10px",
+          "biggest_font": "64px",
+          "font_9": "9px"
+        },
+        "font_weight": {
+          "bolder_font": 700,
+          "bold_font": 600,
+          "light_bold_font": 500,
+          "medium_font": 400,
+          "normal_font": 300,
+          "below_normal_font": 200
+        }
+      },
+      "border": {
+        "radius_1": "1px",
+        "radius_xs": "2px",
+        "radius_xsm": "4.6px",
+        "radius_smm": "5px",
+        "radius_s": "6px",
+        "radius_7": "7px",
+        "radius_8": "8px",
+        "radius_sm": "9px",
+        "radius_m": "10px",
+        "radius_l": "15px",
+        "radius_16": "16px",
+        "radius_xl": "20px",
+        "radius_30": "30px",
+        "radius_64": "64px",
+        "radius_100": "50px"
+      }
+    }
+  }
+}
