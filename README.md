@@ -1,3 +1,15 @@
+--- screenshots ---
+![image](https://github.com/abu-23/mintFarm_UI/assets/83090435/f548841e-01b6-44f2-9ddb-9166be7916e8)
+![image](https://github.com/abu-23/mintFarm_UI/assets/83090435/270154dd-f527-4669-977b-cfc40c8190b5)
+![image](https://github.com/abu-23/mintFarm_UI/assets/83090435/a50e53b3-5002-4a06-9382-ce1a8fff6772)
+![image](https://github.com/abu-23/mintFarm_UI/assets/83090435/8b6edc19-e172-4f45-a747-66cee43ad306)
+![image](https://github.com/abu-23/mintFarm_UI/assets/83090435/e26157da-93e3-4518-baf1-61c1bad0bf74)
+
+-- responsive navbar and table ---
+![image](https://github.com/abu-23/mintFarm_UI/assets/83090435/6e702894-e2b1-464f-99c6-ab82e80f217e)
+![image](https://github.com/abu-23/mintFarm_UI/assets/83090435/c35ef0e0-01e1-4e51-b50a-b5685bfee566)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
